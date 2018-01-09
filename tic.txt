@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+void main ()
+{
+    run ();
+
+}
+void run ()
+{
+  char symbol[9] ={'1','2','3','4','5','6','7','8','9'};
+  display(symbol);
+
+}
+void display(char ch[10] )
+{    printf("TIC TAC TOE \n");
+    printf("player 1 symbol: x\n");
+    printf("player 2 symbol: 0");
+    printf("\n\n\n\t\t\t");
+    printf("  | %c  |   %c  |   %c |\n",ch[0],ch[1],ch[2]);
+    printf("\t\t\t  --------------------\n");
+    printf("\t\t\t");
+    printf("  | %c  |   %c  |   %c |\n",ch[3],ch[4],ch[5]);
+    printf("\t\t\t  --------------------\n");
+    printf("\t\t\t");
+    printf("  | %c  |   %c  |   %c |\n",ch[6],ch[7],ch[8]);
+    printf("\t\t\t  --------------------\n");
+}
